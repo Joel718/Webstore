@@ -1,0 +1,403 @@
+[
+    {
+        "id": 1,
+        "prodName": "1% chance of hitting a target",
+        "prodDesc": "Such website, wow",
+        "prodPrice": 299,
+        "mainCategory": 1,
+        "subCategory": 1.1,
+        "image": ""
+    },{
+        "id": 2,
+        "prodName": "Boba fett",
+        "prodDesc": "Such website, wow",
+        "prodPrice": 299,
+        "mainCategory": 1,
+        "subCategory": 1.1,
+        "image": ""
+    }, {
+        "id": 3,
+        "prodName": "Commander",
+        "prodDesc": "Such website, wow",
+        "prodPrice": 299,
+        "mainCategory": 1,
+        "subCategory": 1.1,
+        "image": ""
+    }, {
+        "id": 4,
+        "prodName": "Doge-vader",
+        "prodDesc": "Such website, wow",
+        "prodPrice": 299,
+        "mainCategory": 1,
+        "subCategory": 1.2,
+        "image": ""
+    }, {
+        "id": 5,
+        "prodName": "The Emperor",
+        "prodDesc": "Just when you thought old guys are nice.." ,
+        "prodPrice": 9999999,
+        "mainCategory": 1,
+        "subCategory": 1.2,
+        "image": ""
+    }, {
+        "id": 6,
+        "prodName": "Duckface",
+        "prodDesc": "This guy is mad",
+        "prodPrice": 50020,
+        "mainCategory": 1,
+        "subCategory": 1.2,
+        "image": ""
+    }, {
+        "id": 7,
+        "prodName": "Royal Guards",
+        "prodDesc": "Loyal to the Emperor",
+        "prodPrice": 12000,
+        "mainCategory": 1,
+        "subCategory": 1.2,
+        "image": ""
+    }, {
+        "id": 8,
+        "prodName": "Lightsaber",
+        "prodDesc": "This glows reaaaly nice",
+        "prodPrice": 9999,
+        "mainCategory": 1,
+        "subCategory": 1.3,
+        "image": ""
+    }, {
+        "id": 9,
+        "prodName": "Lightsaber",
+        "prodDesc": "So cool, much improvement, verry evil. Wow",
+        "prodPrice": 9000,
+        "mainCategory": 1,
+        "subCategory": 1.3,
+        "image": ""
+    },{
+        "id": 10,
+        "prodName": "Luke-Paddawan",
+        "prodDesc": "Son of a doge.. NOooooOOO",
+        "prodPrice": 1299,
+        "mainCategory": 2,
+        "subCategory": 2.1,
+        "image": ""
+    },{
+        "id": 11,
+        "prodName": "Anakin.. a.k.a darth wader",
+        "prodDesc": "Such a family man",
+        "prodPrice": 49.90,
+        "mainCategory": 2,
+        "subCategory": 2.1,
+        "image": ""
+    },{
+        "id": 12,
+        "prodName": "Yoda",
+        "prodDesc": "Train u must",
+        "prodPrice": 199,
+        "mainCategory": 2,
+        "subCategory": 2.1,
+        "image": ""
+    },{
+        "id": 13,
+        "prodName": "Doge never had a role in starwars",
+        "prodDesc": "Doge applied for the job, he will have a place here",
+        "prodPrice": 599,
+        "mainCategory": 2,
+        "subCategory": 2.2,
+        "image": ""
+    },{
+        "id": 14,
+        "prodName": "Buy doge-coin",
+        "prodDesc": "Value for value",
+        "prodPrice": 599,
+        "mainCategory": 2,
+        "subCategory": 2.2,
+        "image": ""
+    },{
+        "id": 15,
+        "prodName": "Grenade",
+        "prodDesc": "It goes bam",
+        "prodPrice": 750,
+        "mainCategory": 2,
+        "subCategory": 2.3,
+        "image": ""
+    },{
+        "id": 16,
+        "prodName": "Rifle",
+        "prodDesc": "It shoots lasers when you press the trigger.. it what m8?",
+        "prodPrice": 349,
+        "mainCategory": 2,
+        "subCategory": 2.3,
+        "image": ""
+    },{
+        "id": 17,
+        "prodName": "Lightsaber",
+        "prodDesc": "Comes in blue and green",
+        "prodPrice": 699,
+        "mainCategory": 2,
+        "subCategory": 2.3,
+        "image": ""
+    },{
+        "id": 18,
+        "prodName": "Medic",
+        "prodDesc": "Would you let this fella heal your wounds?",
+        "prodPrice": 2000,
+        "mainCategory": 3,
+        "subCategory": 3.1,
+        "image": ""
+    },{
+        "id": 19,
+        "prodName": "Medic2",
+        "prodDesc": "Version 2 from Medic 1",
+        "prodPrice": 2999,
+        "mainCategory": 3,
+        "subCategory": 3.1,
+        "image": ""
+    },{
+        "id": 20,
+        "prodName": "Cutie",
+        "prodDesc": "They say that droids are humans best friends",
+        "prodPrice": 459,
+        "mainCategory": 3,
+        "subCategory": 3.2,
+        "image": ""
+    },{
+        "id": 21,
+        "prodName": "R-4",
+        "prodDesc": "U no speak about R-4??",
+        "prodPrice": 4299,
+        "mainCategory": 3,
+        "subCategory": 3.2,
+        "image": ""
+    },{
+        "id": 22,
+        "prodName": "R-3",
+        "prodDesc": "Made in 1920",
+        "prodPrice": "Cheap",
+        "mainCategory": 3,
+        "subCategory": 3.2,
+        "image": ""
+    },{
+        "id": 23,
+        "prodName": "Tallman",
+        "prodDesc": "Were is the neck?",
+        "prodPrice": 7999,
+        "mainCategory": 3,
+        "subCategory": 3.3,
+        "image": ""
+    },{
+        "id": 24,
+        "prodName": "Critter",
+        "prodDesc": "Who even programmed this bot?",
+        "prodPrice": 1000,
+        "mainCategory": 3,
+        "subCategory": 3.3,
+        "image": ""
+    },{
+        "id": 25,
+        "prodName": "Shield",
+        "prodDesc": "Tired of writing products",
+        "prodPrice": 3999,
+        "mainCategory": 3,
+        "subCategory": 3.3,
+        "image": ""
+    },{
+        "id": 26,
+        "prodName": "Gold guy",
+        "prodDesc": "Speaks lots of languages",
+        "prodPrice": 399,
+        "mainCategory": 3,
+        "subCategory": 3.4,
+        "image": ""
+    },{
+        "id": 26,
+        "prodName": "Gold guy",
+        "prodDesc": "Speaks lots of languages",
+        "prodPrice": 399,
+        "mainCategory": 3,
+        "subCategory": 3.4,
+        "image": ""
+    },{
+        "id": 27,
+        "prodName": "What is this droid doing here?",
+        "prodDesc": "..description unavaible",
+        "prodPrice": 4299,
+        "mainCategory": 3,
+        "subCategory": 3.4,
+        "image": ""
+    },{
+        "id": 28,
+        "prodName": "Viper",
+        "prodDesc": "Electrifies enemys, loyal.",
+        "prodPrice": 4000,
+        "mainCategory": 3,
+        "subCategory": 3.4,
+        "image": ""
+    },{
+        "id": 29,
+        "prodName": "Death-Star",
+        "prodDesc": "Not sure if you can call this a ship or not",
+        "prodPrice": "Break the budget",
+        "mainCategory": 4,
+        "subCategory": 4.1,
+        "image": ""
+    },{
+        "id": 30,
+        "prodName": "Death-Star",
+        "prodDesc": "Not sure if you can call this a ship or not",
+        "prodPrice": "Break the budget",
+        "mainCategory": 4,
+        "subCategory": 4.1,
+        "image": ""
+    },{
+        "id": 31,
+        "prodName": "Star-Fighter",
+        "prodDesc": "Cool looking space-craft",
+        "prodPrice": "Its over 9thousand",
+        "mainCategory": 4,
+        "subCategory": 4.1,
+        "image": ""
+    },{
+        "id": 32,
+        "prodName": "Jumbo-ship",
+        "prodDesc": "Fleet",
+        "prodPrice": 1200000,
+        "mainCategory": 4,
+        "subCategory": 4.1,
+        "image": ""
+    },{
+        "id": 33,
+        "prodName": "X-Fighter",
+        "prodDesc": "Good choise",
+        "prodPrice": 5999,
+        "mainCategory": 4,
+        "subCategory": 4.2,
+        "image": ""
+    },{
+        "id": 34,
+        "prodName": "Elit",
+        "prodDesc": "Big as* ship",
+        "prodPrice": 89999,
+        "mainCategory": 4,
+        "subCategory": 4.2,
+        "image": ""
+    },{
+        "id": 35,
+        "prodName": "Machine",
+        "prodDesc": "Shield",
+        "prodPrice": 70000,
+        "mainCategory": 4,
+        "subCategory": 4.3,
+        "image": ""
+    },{
+        "id": 36,
+        "prodName": "Machine",
+        "prodDesc": "Dont know what this do",
+        "prodPrice": 100000,
+        "mainCategory": 4,
+        "subCategory": 4.3,
+        "image": ""
+    },{
+        "id": 37,
+        "prodName": "1% chance of hitting a target",
+        "prodDesc": "Such website, wow",
+        "prodPrice": 299,
+        "mainCategory": 1,
+        "subCategory": 1.1,
+        "image": ""
+    }, {
+        "id": 38,
+        "prodName": "Lightsaber",
+        "prodDesc": "This glows reaaaly nice",
+        "prodPrice": 9999,
+        "mainCategory": 1,
+        "subCategory": 1.3,
+        "image": ""
+    }, {
+        "id": 39,
+        "prodName": "Lightsaber",
+        "prodDesc": "This glows reaaaly nice",
+        "prodPrice": 9999,
+        "mainCategory": 1,
+        "subCategory": 1.3,
+        "image": ""
+    },{
+        "id": 40,
+        "prodName": "Luke-Paddawan",
+        "prodDesc": "Son of a doge.. NOooooOOO",
+        "prodPrice": 1299,
+        "mainCategory": 2,
+        "subCategory": 2.1,
+        "image": ""
+    },{
+        "id": 41,
+        "prodName": "Buy doge-coin",
+        "prodDesc": "Value for value",
+        "prodPrice": 599,
+        "mainCategory": 2,
+        "subCategory": 2.2,
+        "image": ""
+    },{
+        "id": 42,
+        "prodName": "Buy doge-coin",
+        "prodDesc": "Value for value",
+        "prodPrice": 599,
+        "mainCategory": 2,
+        "subCategory": 2.2,
+        "image": ""
+    },{
+        "id": 43,
+        "prodName": "Rifle",
+        "prodDesc": "It shoots lasers when you press the trigger.. it what m8?",
+        "prodPrice": 349,
+        "mainCategory": 2,
+        "subCategory": 2.3,
+        "image": ""
+    },{
+        "id": 44,
+        "prodName": "Medic",
+        "prodDesc": "Would you let this fella heal your wounds?",
+        "prodPrice": 2000,
+        "mainCategory": 3,
+        "subCategory": 3.1,
+        "image": ""
+    },{
+        "id": 45,
+        "prodName": "Medic",
+        "prodDesc": "Would you let this fella heal your wounds?",
+        "prodPrice": 2000,
+        "mainCategory": 3,
+        "subCategory": 3.1,
+        "image": ""
+    },{
+        "id": 46,
+        "prodName": "Cutie",
+        "prodDesc": "They say that droids are humans best friends",
+        "prodPrice": 459,
+        "mainCategory": 3,
+        "subCategory": 3.2,
+        "image": ""
+    },{
+        "id": 47,
+        "prodName": "Shield",
+        "prodDesc": "Tired of writing products",
+        "prodPrice": 3999,
+        "mainCategory": 3,
+        "subCategory": 3.3,
+        "image": ""
+    },{
+        "id": 48,
+        "prodName": "Machine",
+        "prodDesc": "Shield",
+        "prodPrice": 70000,
+        "mainCategory": 4,
+        "subCategory": 4.3,
+        "image": ""
+    },{
+        "id": 49,
+        "prodName": "Machine",
+        "prodDesc": "Shield",
+        "prodPrice": 70000,
+        "mainCategory": 4,
+        "subCategory": 4.3,
+        "image": ""
+    }
+]

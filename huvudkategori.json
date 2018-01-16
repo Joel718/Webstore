@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "mainCategory": "Imperial"
+    },{
+        "id": 2,
+        "mainCategory": "Rebellion"
+    },{
+        "id": 3,
+        "mainCategory": "Droids"
+    },{
+        "id": 4,
+        "mainCategory": "Space-Ships"
+    }
+]
