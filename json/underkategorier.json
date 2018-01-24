@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1.1,
+        "subCategory": "Lightsabers",
+        "mainCategory": 1
+        
+    },{
+        "id": 1.2,
+        "subCategory": "Rifles",
+        "mainCategory": 1
+    },{
+        "id": 1.3,
+        "subCategory": "Grenades",
+        "mainCategory": 1
+    },{
+        "id": 1.4,
+        "subCategory": "Towers",
+        "mainCategory": 1
+    },{
+        "id": 2.1,
+        "subCategory": "Some evil armor",
+        "mainCategory": 2
+    },{
+        "id": 2.2,
+        "subCategory": "Rebell-armor",
+        "mainCategory": 2
+    },{
+        "id": 2.3,
+        "subCategory": "Clone-armor",
+        "mainCategory": 2
+    },{
+        "id": 2.4,
+        "subCategory": "Jedi-gear",
+        "mainCategory": 2
+    },{
+        "id": 3.1,
+        "subCategory": "X-Wing",
+        "mainCategory": 3
+    },{
+        "id": 3.2,
+        "subCategory": "Starfighter",
+        "mainCategory": 3
+    },{
+        "id": 3.3,
+        "subCategory": "Emperors royal guards-ship",
+        "mainCategory": 3
+    },{
+        "id": 3.4,
+        "subCategory": "The palpatine's shuttle",
+        "mainCategory": 3
+    },{
+        "id": 4.1,
+        "subCategory": "Death-star",
+        "mainCategory": 4
+    },{
+        "id": 4.2,
+        "subCategory": "Mustafar",
+        "mainCategory": 4
+    },{
+        "id": 4.3,
+        "subCategory": "Hoth",
+        "mainCategory": 4
+    },{
+        "id": 4.4,
+        "subCategory": "Alderaan",
+        "mainCategory": 4
+    }
+]
