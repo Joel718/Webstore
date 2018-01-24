@@ -1,53 +1,96 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Joels StarWars webshop</title>
-    <script src="https://use.fontawesome.com/23e3abc5b7.js"></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" text="text/css" href="webshop.css">
+    <meta charset="utf-8" />
+	<style>
 
-    <style>
-        ul {
-            width: 100%;
-            height: 100%;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
 
-        li {
-            float: left;
-            display: list-item;
-        }
-    </style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		input {
+			width:98%;
+			height: 27px;
+			text-indent: .3em;
+			outline:none;
+		}
+		.logbutton {
+			width: 99.5%;
+            height:38px;
+            cursor: pointer;
+            background-color: rgb(249, 0, 0);
+            border:none;
+            color: #fff;
+			outline: none;
+		}
+		.logbutton:hover {
+			opacity: .8;
+		}
+		.logbutton:active {
+			background-color: blue;
+		}
+	</style>
+    <script src="jquery-3.2.1.min.js"></script>
+    <title>Admin - Joel StarWars</title>
+    <script>
+    	// Global variable
+    	var customerList;
+    
+        $(document).ready(function(){
+            fetch("kunder.json").then(function(response){ return response.json(); }).
+            then(function(data) { customerList = data; });
+            
+        	$('.logbutton').click(function() {
+        		var userid   = $('#txtuserid').val();
+        		var password = $('#txtpassword').val();
+        		if(userid == '') {
+        			$('#tderror').text('Användarnamn required.');
+        			return;
+        		}
+        		if (password == '') {
+        			$('#tderror').text('Lösenord required.');
+        			return;
+        		}
+        		$('#tderror').text('');
+                
+        		for(var i = 0; i <customerList.length ; i++) {
+        			if(userid == customerList[i].email && password == customerList[i].password) {
+        				location.href='home.html';
+        				return;
+        			}
+        		}
+        		$('#tderror').text('Invalid Användarnamn & Lösenord');
+        	});
+        });
+    </script>
 </head>
-
-<body>
-
-    <a href="index.html"><img src="img/logo.png" style="width: 15%; margin-left: auto; display: block; margin-right: auto;"></a>
-    <div class="header">
-        <a href="kontakt.html" target="_blank" style="background-color: yellow; color: black; padding: 5px 5px; text-decoration: none; display: inline-block;">Info / Kontakt</a>
-        <span class="shoppingcart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart : 0</span>
-    </div>
-    <div class="category"></div>
-
-    <div class="sub_category"></div>
-    <div class="route"></div>
-    <div class="content"><img src="img/starwars.gif" alt="stargif" style="margin-left: auto; display: block; margin-right: auto;"></div>
-    <div class="footer"></div>
-    <div class="mask"></div>
-    <div class="largeview">
-        <img class="photo">
-        <span class="name"></span>
-        <span class="title"></span>
-        <span class="price"></span>
-        <span class="buy">Add to cart</span>
-        <span class="exit" title="exit">X</span>
-    </div>
-    <div class="cartview"></div>
-
+<body style="margin:0">
+	<div style="height: 42px;font-size:30px;padding-left: 200px;padding-top:5px;color:#fff;background-color: rgb(0, 0, 0)">Admin page - StarWars shop</div>
+	<div style="width:350px;height:280px;position: absolute;border:solid #020202 1px;top:15%;left:50%;margin-left: -185px">
+		<div style="height:50px;position: relative;background-color: #000000"><span style="color:#fff;position: absolute;top:15px;left:30px">Log In</span></div>
+		<div style="height: 230px;padding: 0 10px">
+			<table style="width: 100%;height:100%">
+				<tr>
+					<td style="vertical-align: bottom;">Användarnamn</td>
+				</tr>
+				<tr height="30px">
+					<td style="vertical-align: top"><input type="text" id="txtuserid"></td>
+				</tr>
+				<tr>
+					<td style="vertical-align: bottom;">Lösenord</td>
+				</tr>
+				<tr>
+					<td style="vertical-align: top"><input type="password" id="txtpassword"></td>
+				</tr>
+				<tr>
+					<td><button class="logbutton">Log in</button>
+				</tr>
+				<tr>
+					<td style="color: red" id="tderror">&nbsp;</td>
+				</tr>
+			</table>
+		</div>
+	</div>
 </body>
-
 </html>
