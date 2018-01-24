@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "mainCategory": "Weapons"
+    },{
+        "id": 2,
+        "mainCategory": "Armor"
+    },{
+        "id": 3,
+        "mainCategory": "Spaceship"
+    },{
+        "id": 4,
+        "mainCategory": "Planets"
+    }
+]
