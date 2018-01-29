@@ -39,11 +39,11 @@ fetch("json/kunder.json")
 
 // alert när man trycker på köp knappen i kundvagnen.
 function alertFunction() {
-
-    alert("Thank you for buying");
+    location.href = 'admin/index.html';
+    alert("Please login before you buy. Thank you for your purschase");
 }
 
-// Loopar ut huvudkategorierna gå vidare till subcategory. se onclick.
+// Loopar ut huvudkategorierna gå vidare till subcategory.
 function showMainCategory() {
 
     $str = "<table><tr>";
@@ -86,7 +86,6 @@ function showProduct(mainIndex, subIndex) {
 }
 
 
-
 // Produktinfo
 function largeview(m, n) {
     for (i=0;i<productList.length;i++) {
@@ -94,6 +93,7 @@ function largeview(m, n) {
             $('.largeview').children('.name').text(productList[i].prodName);
             $('.largeview').children('.title').text(productList[i].prodDesc);
             $('.largeview').children('.price').text('price:'+productList[i].prodPrice);
+            $('.largeview').children('.price').attr('value',productList[i].prodPrice);
             break;
         }			
     }
@@ -107,7 +107,10 @@ $(function() {
     $products = new Array();
     $('.buy').click(function() {
         $('.mask,.largeview').fadeOut();
-        $products[$cart_count] = $('.largeview').children('.name').text();
+        $products[$cart_count] = {}
+        $products[$cart_count]['name'] = $('.largeview').children('.name').text();
+        $products[$cart_count]['title'] = $('.largeview').children('.title').text();
+        $products[$cart_count]['price'] = $('.largeview').children('.price').attr('value');
         $cart_count++;
         $('.shoppingcart').text('Cart : ' + $cart_count);
     });
@@ -126,10 +129,15 @@ $(function() {
             $('.cartview').append("<span class='empty'>Empty Cart</span>");
         else {
             $('.cartview').append("<button class='btn' onclick='alertFunction()'>" + "Buy products" + "</button>");
+            $html = "<table><thead><tr><th></th><th>Name</th><th>Title</th><th>Price</th></tr></thead><tbody>";
+            sum = 0;
             for (i = 0; i < $cart_count; i++) {
-                $('.cartview').append("<div class='cartitem'><img src='img/clone.jpg' class='icon'><span class='name'>" + $products[i] + "</span></div>");
-
+                sum += parseInt($products[i].price);
+                $html += "<tr class=''><td class=''>" + "<img class='photo' src=./img/" + productList[i].image + ">" + "</td><td class=''>" + $products[i].name + "</td><td class=''>"+$products[i].title+"</td><td class=''>"+$products[i].price+"</td></tr>";
             }
+            $html += "<tr class=''><td colspan= '2'>total price:</td><td colspan='2'>"+sum+"</td></tr></tbody></table>";
+            $('.cartview').append($html);
+            document.cookie = $html;
         }
     });
 });
