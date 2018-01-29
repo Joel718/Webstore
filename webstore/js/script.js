@@ -135,9 +135,8 @@ $(function() {
                 sum += parseInt($products[i].price);
                 $html += "<tr class=''><td class=''>" + "<img class='photo' src=./img/" + productList[i].image + ">" + "</td><td class=''>" + $products[i].name + "</td><td class=''>"+$products[i].title+"</td><td class=''>"+$products[i].price+"</td></tr>";
             }
-            $html += "<tr class=''><td colspan= '2'>total price:</td><td colspan='2'>"+sum+"</td></tr></tbody></table>";
+            $html += "<tr class=''><td colspan= '2'>total price:</td><td colspan='2'>"+sum+"</td></tr></tbody></table> + 55 for shipping";
             $('.cartview').append($html);
-            document.cookie = $html;
         }
     });
 });
